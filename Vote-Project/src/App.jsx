@@ -1,14 +1,20 @@
 
-import './App.css'
+import './App.css';
+import Auth from './components/auth';
+import Noor from './components/Noor';
+import Yazan from './components/Yazan';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// eslint-disable-next-line no-unused-vars
-import { BrowserRouter, Routes, Route , Switch } from "react-router-dom";
 function App() {
-
-
   return (
-    <></>
-  )
+        <Router>
+          <Routes>
+            <Route exact path='/' element={<Auth />} />  
+            <Route path="/user1" element={<Noor />} /> 
+            <Route path="/user2" element={<Yazan />} /> 
+          </Routes>
+        </Router>
+  ) 
 }
 
 export default App
