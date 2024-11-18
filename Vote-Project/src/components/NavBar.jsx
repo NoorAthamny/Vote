@@ -16,7 +16,7 @@ const NavBar = () => {
 
   return (
     <nav>
-        <img src="public\images\logo-vote-01.png" alt="" />
+        <img src="images\logo-vote-01.png" alt="" />
         <ul>
             <button onClick={handleToggle}   className="profile-btn" type="button"> <i className="fa-solid fa-user"></i> User Name <i className="fa-solid fa-caret-down"></i> </button>
             <section className={`dropDwon ${toggle === true ? "show" : ""}`}>

@@ -35,7 +35,7 @@ const Auth = () => {
   return (
     <section className="form-section">
       <form >
-        <img src="public/images/logo-vote-01.png" alt="vote-logo" />
+        <img src="images/logo-vote-01.png" alt="vote-logo" />
         <h1>SIGN IN</h1>
 
         <label htmlFor="email">Email</label>
